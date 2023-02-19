@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class TestBase {
+public class TestBase extends BrowserstackDrivers {
     @BeforeAll
     static void beforeAll() {
         Configuration.browser = BrowserstackDrivers.class.getName();
