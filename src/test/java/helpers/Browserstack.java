@@ -1,5 +1,6 @@
 package helpers;
 
+import static helpers.CustomApiListener.withCustomTemplates;
 import static io.restassured.RestAssured.given;
 import static java.lang.String.format;
 
@@ -9,6 +10,7 @@ public class Browserstack {
 
         return given()
                 .log().all()
+                .filter(withCustomTemplates())
                 .auth().basic("fninofgoijmuio_TUgkQ5", "uXj7y4ecgwaoaBcchn6J")
                 .when()
                 .get(url)
