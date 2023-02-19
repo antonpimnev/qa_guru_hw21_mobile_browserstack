@@ -4,24 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23529d68-abf3-4d4b-aab7-7065ace141d0" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/BrowserstackConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackDrivers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/CustomListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/android/MainScreenTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ios/SearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/android.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ios.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/secret.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="23529d68-abf3-4d4b-aab7-7065ace141d0" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/WebDriverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/mobile.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/BrowserstackConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackDrivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/CustomListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/CustomApiListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/MainScreenTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ios/SearchTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/android.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/android.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ios.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ios.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/secret.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -52,22 +56,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/qa_guru_hw21_mobile_browserstack/src/test/resources/tpl",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/qa_guru_hw21_mobile_browserstack&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2e47db51527bc2845ba7ea1fefbb7e0e&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\qa_guru_hw21_mobile_browserstack\src\test\resources\tpl" />
       <recent name="C:\Users\User\IdeaProjects\qa_guru_hw21_mobile_browserstack\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MainScreenTests.searchTest">
+  <component name="RunManager" selected="Gradle.MainScreenTests">
     <configuration name="MainScreenTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -91,7 +98,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainScreenTests.searchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainScreenTests.searchTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -116,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MainScreenTests.searchTest" />
         <item itemvalue="Gradle.MainScreenTests" />
+        <item itemvalue="Gradle.MainScreenTests.searchTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +138,14 @@
       <updated>1676564517594</updated>
       <workItem from="1676564519895" duration="850000" />
       <workItem from="1676621357577" duration="97000" />
-      <workItem from="1676720619233" duration="3755000" />
+      <workItem from="1676720619233" duration="7158000" />
+      <workItem from="1676737887293" duration="737000" />
+      <workItem from="1676738801478" duration="29000" />
+      <workItem from="1676740787991" duration="173000" />
+      <workItem from="1676740995512" duration="791000" />
+      <workItem from="1676742779431" duration="152000" />
+      <workItem from="1676745974194" duration="629000" />
+      <workItem from="1676803572306" duration="2480000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676564749460</created>
@@ -140,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676564749460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tests">
+      <created>1676725210296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676725210296</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix">
+      <created>1676806131535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676806131535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="tests" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
